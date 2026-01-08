@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ktechshop/consts/consts.dart';
 import 'package:ktechshop/consts/lists.dart';
+import 'package:ktechshop/views/home_screen/components/feature_button.dart';
 import 'package:ktechshop/widgets_common/home_button.dart';
 
 
@@ -90,12 +91,25 @@ class HomeScreen extends StatelessWidget {
                   title: index == 0 ? topCategory : index == 1 ? brand : topSallers,
                 )),
               ),
-              10.heightBox,
+              20.heightBox,
               Align(
                 alignment: Alignment.centerLeft,
                 child: featuredCategories.text.color(darkFontGrey).size(18).fontFamily(semibold).make()),
-
-                ],
+                
+              20.heightBox, 
+                SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: List.generate(2, (index) => Column(
+                      children: [
+                        featuredButton(icon: featuredImages1[index], title: featuredTitles1[index]),
+                        10.heightBox, 
+                        featuredButton(icon: featuredImages2[index], title: featuredTitles2[index]),
+                      ],
+                    )),
+                  ),
+                )
+              ],
               ),
             ),
           )
