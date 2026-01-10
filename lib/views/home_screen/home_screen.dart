@@ -82,6 +82,7 @@ class HomeScreen extends StatelessWidget {
                   );
                 }),
               10.heightBox,
+
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: List.generate(3, (index) => homeButton(
@@ -91,6 +92,7 @@ class HomeScreen extends StatelessWidget {
                   title: index == 0 ? topCategory : index == 1 ? brand : topSallers,
                 )),
               ),
+              
               20.heightBox,
               Align(
                 alignment: Alignment.centerLeft,

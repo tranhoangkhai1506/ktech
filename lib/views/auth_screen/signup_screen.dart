@@ -14,7 +14,6 @@ class SignupScreen extends StatefulWidget {
 }
 
 class _SignupScreenState extends State<SignupScreen> {
-
   bool?  isCheck = false;
   @override
   Widget build(BuildContext context) {
@@ -35,6 +34,7 @@ class _SignupScreenState extends State<SignupScreen> {
                   customTextField(title: password, hint: passwordHint),
                   customTextField(title: retypePass, hint: passwordHint),
                   5.heightBox,
+
                   Row(
                     children: [
                       Checkbox(
@@ -70,8 +70,10 @@ class _SignupScreenState extends State<SignupScreen> {
                     ],
                   ),
                   5.heightBox,
+
                   ourButton(color: isCheck == true ? redColor : lightGrey, title: signup, textColor: whiteColor, onPress: (){} ).box.width(context.screenWidth - 50).make(),
                   10.heightBox,
+                  
                   RichText(text: TextSpan(
                     children: [
                       TextSpan(
