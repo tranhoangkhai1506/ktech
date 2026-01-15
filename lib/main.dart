@@ -17,12 +17,13 @@ class MyApp extends StatelessWidget {
       title: 'KTech',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.transparent,
-        appBarTheme: const AppBarTheme(backgroundColor: Colors.transparent,),
-        fontFamily: regular
+        appBarTheme: const AppBarTheme(
+          iconTheme: IconThemeData(color: darkFontGrey),
+          backgroundColor: Colors.transparent,
+        ),
+        fontFamily: regular,
       ),
       home: SplashScreen(),
     );
   }
 }
-
-
