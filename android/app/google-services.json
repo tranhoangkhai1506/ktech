@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014562926405",
+    "project_id": "ktech2026-f54e8",
+    "storage_bucket": "ktech2026-f54e8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014562926405:android:fc4f40db4d503b972ad82c",
+        "android_client_info": {
+          "package_name": "com.example.ktechshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEibQTG-tqB3cshJd2gwqMtwC9zQZxF-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,3 +1,5 @@
+import 'package:flutter/services.dart';
+
 const appname = "Ktech Ecommerce";
 const appversion = "Version 1.0.0";
 const credits = "@Kaaka Devs";
@@ -15,6 +17,7 @@ const signup = "Sign up";
 const privacyPolicy = "Privacy Policy";
 const termAndCond = "Terms and Conditions";
 const retypePass = "Retype Password";
+const logout = "Log out";
 const alreadyHaveAccount = "Already have an account? ";
 
 const womenClothing = "Women Clothing",
@@ -50,3 +53,7 @@ const video = "Video",
     sellerpolicy = "Seller Policy",
     returnPolicy = "Return Policy",
     supportPolicy = "Support Policy";
+
+const orders = "Orders", wishlist = "Wishlists", message = "Message";
+const loggedin = "Logged in successfully";
+const loggedout = "Logged out successfully";
