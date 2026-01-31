@@ -1,5 +1,3 @@
-import 'package:flutter/services.dart';
-
 const appname = "Ktech Ecommerce";
 const appversion = "Version 1.0.0";
 const credits = "@Kaaka Devs";
@@ -47,7 +45,6 @@ const searching = "Searching anything....",
     girlsWatch = "Girls Watch",
     mobiphone = "Mobile Phone",
     boysGlass = "Boys Glass";
-
 const video = "Video",
     reviews = "Reviews",
     sellerpolicy = "Seller Policy",
